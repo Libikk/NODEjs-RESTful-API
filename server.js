@@ -11,6 +11,8 @@ let veggies = [
 ]
 
 app.use(express.json());
+
+app.get('/', (request, response) => response.send('Hi this is Marek`s app!'))
 /////
 //Read list
 ////
